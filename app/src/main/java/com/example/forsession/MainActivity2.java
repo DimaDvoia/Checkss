@@ -22,6 +22,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         String login = intent.getStringExtra("LOGIN");
 
-        loginTextVie.setText("Приветсвтвую:" + "" + login);
+        loginTextVie.setText("Привет:" + "" + login);
     }
 }
